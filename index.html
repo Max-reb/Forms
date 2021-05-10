@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Формы</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<h1>Анкета ученика</h1>
+		<form>
+			<fieldset>
+				<legend>Контактная информация</legend>
+				<input type="text" placeholder="Введите имя..">
+				<input type="text" placeholder="Введите номер телефона..">
+				<input type="email" placeholder="Введите email..">
+			</fieldset>
+			<fieldset>
+				<legend>Личная информация</legend>
+				<label for="age">ваш возраст</label>
+				<input id="age" type="number">
+
+				<label for="date">Дата рождения</label>
+				<input id="date" type="date">
+
+				<label for="type">по какому курсу занимаетесь</label>
+				<select id="type">
+					<option>Scratch</option>
+					<option>Front-end</option>
+					<option>Back-end</option>
+					<option>Python</option>
+					<option>C++</option>
+				</select>
+			</fieldset>
+			<fieldset class="text">
+				<label class="text2">Посоветуете ли Вы нас друзьям?</label>
+
+				<input name="radio" type="radio">
+				<label>Да</label>
+
+				<input name="radio" type="radio">
+				<label>Конечно</label>
+
+				<input name="radio" type="radio">
+				<label>Нет</label>
+
+				<label class="text2" for="text2">Оставьте комментарий :)</label>
+				<input id="text2" type="text">
+			</fieldset>
+			<button>Отправить</button>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+	background-image: url(bgc.jpg);
+	padding: 0 10%;
+}
+
+div {
+	background-color: white;
+	padding: 0 5% 5%;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+fieldset {
+	border: green solid 2px;
+	border-radius: 1px;
+	margin: 10px;
+}
+
+legend {
+	color: green;
+	text-align: left;
+}
+
+input, select {
+	border: green solid 2px;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+	display: block;
+	width: 40%;
+	outline: none;
+}
+
+select {
+	width: 45%;
+}
+
+label {
+	color: green;
+}
+
+input[type=radio] {
+	display: inline-block;
+	width: 10%;
+}
+
+.text {
+	text-align: center;
+}
+
+.text2 {
+	display: block;
+	text-align: left;
+}
+
+button {
+	background-color: teal;
+	color: white;
+	border: teal solid 2px;
+	border-radius: 7px;
+	width: 33%;
+	height: 50px;
+}
